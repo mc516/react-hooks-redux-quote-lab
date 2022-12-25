@@ -1,5 +1,6 @@
 import React from "react";
-
+import Quotes from "./features/quotes/Quotes";
+import QuoteForm from "./features/quotes/QuoteForm";
 function App() {
   return (
     <div className="container-fluid">
@@ -12,9 +13,11 @@ function App() {
       <hr />
       {/*
           TODO:
-
           Render QuoteForm and Quotes Components
          */}
+        {<QuoteForm />}
+        {<Quotes />}
+
     </div>
   );
 }
